@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.source_files  = "LFLiveKit/**/*.{h,m,mm,cpp,c}"
   s.public_header_files = ['LFLiveKit/*.h', 'LFLiveKit/objects/*.h', 'LFLiveKit/configuration/*.h']
 
+  s.dependency 'GPUImage'
+
   s.frameworks = "VideoToolbox", "AudioToolbox","AVFoundation","Foundation","UIKit"
   s.libraries = "c++", "z"
 

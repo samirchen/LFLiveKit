@@ -1,0 +1,10 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, "8.0"
+
+target 'LFLiveKit' do
+    platform:ios, '8.0'
+
+    pod 'GPUImage', :path=>'../../GPUImage'
+
+ end

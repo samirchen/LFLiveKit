@@ -5,4 +5,5 @@ use_frameworks!
 
 target “LFLiveKitSwiftDemo” do
     pod 'LFLiveKit', :path => '../../.'
+    pod 'GPUImage', :path=>'../../../GPUImage'
 end
